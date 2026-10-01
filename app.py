@@ -6,13 +6,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 import os
 
-"""
-========================================================================================
-DASHBOARD EXECUTIVO DE FATURAMENTO & INTELIGÊNCIA COMERCIAL
-Autora: Caroline Rocha
-Stack: Streamlit + DuckDB + Plotly + Parquet
-========================================================================================
-"""
+# """
+# ========================================================================================
+# DASHBOARD EXECUTIVO DE FATURAMENTO & INTELIGÊNCIA COMERCIAL
+# Autora: Caroline Rocha
+# Stack: Streamlit + DuckDB + Plotly + Parquet
+# ========================================================================================
+# """
 # rodar writefile dentro do colab pra gerar o arquivo app.py
 # %%writefile app.py
 
