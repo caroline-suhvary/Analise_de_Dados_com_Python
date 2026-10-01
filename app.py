@@ -1,3 +1,11 @@
+
+import streamlit as st
+import duckdb
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import os
+
 """
 ========================================================================================
 DASHBOARD EXECUTIVO DE FATURAMENTO & INTELIGÊNCIA COMERCIAL
@@ -14,12 +22,7 @@ st.title("Painel de Faturamento")
 # ...
 
 
-import streamlit as st
-import duckdb
-import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
-import os
+
 
 # Configuração da página
 st.set_page_config(
